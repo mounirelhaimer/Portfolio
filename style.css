@@ -6,8 +6,10 @@
 }
 
 :root {
+
     --bg:#0a0a0f;
     --bg2:#111118;
+    --bg3:#18181f;
     --text:#f0f0f5;
     --muted:#8a8a9a;
     --accent:#7c6dfa;
@@ -163,4 +165,112 @@ nav {
     text-transform:uppercase;
     letter-spacing:0.1em;
     margin-top:0.2rem;
+}
+/* =====DECTION GENERAL =====*/
+section {
+    min-height:100vh;
+    padding:8rem 4rem 4rem;
+    max-width:1100px;
+    margin:0 auto;
+}
+
+.section-label{
+    font-size: 0.75rem;
+    color:var(--accent);
+    letter-spacing:0.15em;
+    text-transform:uppercase;
+    margin-bottom:1rem;
+}
+
+.section-title{
+    font-size:clamp(2rem,4vw,3.5rem);
+    color:var(--text);
+    margin-bottom:3rem;
+}
+
+/*=====ABOUT======*/
+.about-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:4rem;
+    align-items:start;
+}
+
+.about-text p {
+    color:var(--muted);
+    font-size:0.95rem;
+    line-height:1.9;
+    margin-bottom:1.2rem;
+}
+.about-text p strong{
+    color:var(--text);
+    font-weight:500;
+}
+
+.about-info{
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+    margin-top:2rem;
+}
+
+.info-row{
+    display:flex;
+    align-items:center;
+    gap:1rem;
+    font-size:0.85rem;
+}
+
+.info-key{
+    color:var(--accent3);
+    width:90px;
+    flex-shrink:0;
+}
+
+.info-val{
+    color:var(--muted);
+}
+/*===== SKILLS PANEL =====*/
+.skills-panel{
+    background:var(--bg2);
+    border:1px solid rgba(255,255,255,0.07);
+    border-radius:4px;
+    padding:2rem;
+}
+
+.skills-panel h3{
+    font-size:0.8rem;
+    color:var(--accent);
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    margin-bottom:1.5rem;
+}
+
+.skill-item{
+    margin-bottom:1.4rem;
+}
+.skill-top{
+    display:flex;
+    justify-content:space-between;
+    font-size:0.85rem;
+    color:var(--muted);
+    margin-bottom:0.4rem;
+}
+
+.skill-top strong{
+    color:var(--text);
+    font-weight:500 ;
+}
+
+.skill-bar{
+    height:3px;
+    background:var(--bg3);
+    border-radius:2px;
+    overflow:hidden;
+}
+
+.skill-fill{
+    height:100%;
+    border-radius:2px;
+    background:linear-gradient(90deg,var(--accent),var(--accent3));
 }
