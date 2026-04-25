@@ -1,0 +1,26 @@
+/* ===== RESET & BASE ===== */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin:0;
+    padding:0
+}
+
+:root {
+    --bg:#0a0a0f;
+    --bg2:#111118;
+    --text:#f0f0f5;
+    --muted:#8a8a9a;
+    --accent:#7c6dfa;
+    --accent3:#2dd4b0;
+}
+
+html { 
+scroll-behavior:smooth;
+}
+
+body{
+    font-family:'outfit',sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    line-height:1.7;
+}
