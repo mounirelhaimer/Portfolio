@@ -1,4 +1,4 @@
-# Portfolio — Munir El Haymer
+# Portfolio — Mounir Elhaimer
 
 > Site web personnel developpe en HTML5, CSS3 et JavaScript pur.
 
@@ -32,7 +32,7 @@
 
 ## Informations
 
-- Nom : Munir El Haymer
+- Nom : Mounir Elhaimer
 - Age : 19 ans
 - Ville : Marrakech, Maroc
 - Etude : L1 Informatique — FSSM, Universite Cadi Ayyad
