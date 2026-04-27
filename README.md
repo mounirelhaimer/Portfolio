@@ -36,7 +36,7 @@
 - Age : 19 ans
 - Ville : Marrakech, Maroc
 - Etude : L1 Informatique — FSSM, Universite Cadi Ayyad
-- Email : mounirelhaimer@gmail.com
+- Email : mounirelhaimer119@gmail.com
 
 ## Projet
 
